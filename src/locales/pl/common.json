@@ -1,0 +1,102 @@
+{
+  "title": "Full-stack developer - Michał Bodys",
+  "description": "Full-stack develope z Polski specjalizujący się w tworzeniu aplikacji internetowych wysokiej wydajności z naciskiem na doświadczenie użytkownika i innowacyjne rozwiązania. Otwarty na ekscytujące możliwości!",
+  "navbar": [
+    {
+      "label": "strona główna",
+      "href": "#top"
+    },
+    {
+      "label": "O mnie",
+      "href": "#o-mnie"
+    },
+    {
+      "label": "Projekty",
+      "href": "#projekty"
+    },
+    {
+      "label": "Technologie",
+      "href": "#tech-stack"
+    }
+  ],
+  "hero": {
+    "job_availability": "Dostępny do pracy!",
+    "title": "Cześć, jestem Michał Bodys!",
+    "job_title": "<strong>Full stack developer</strong>",
+    "description": "Z zaangażowaniem tworzę nowoczesne i wydajne aplikacje internetowe, kładąc szczególny nacisk na doskonałe doświadczenia użytkownika oraz innowacyjne podejście do rozwiązywania problemów. Jestem gotów na nowe, inspirujące wyzwania!",
+    "cta": "CV",
+    "ctafooter": "Kontakt"
+  },
+  "projects": {
+    "title": "Projekty",
+    "projects": [
+      {
+        "title": "B2B Platform",
+        "description": "Utrzymanie i konserwacja strony B2B dla firmy z branży OZE, tworzenie systemów sprzedażowych i obsługi zamówień dla klientów oraz rozwój panelu administratora z funkcjami obsługi klientów, raportowania oraz systemów sprzedaży pakietów i powiadomień dla polskich i zagranicznych oddziałów.",
+        "image": "/src/images/projects/b2b.png",
+        "techs": ["JavaScript", "Jquery", "bootstrap", "PHP", "mysql"],
+        "code": "",
+        "preview": "https://www.keno-energy.com/?gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIphz31OBTVF-MxNItQDIlD3cFmhsfpQjS_jq_mFKghq-6RtnZdZZz4aAgvnEALw_wcB"
+      },
+      {
+        "title": "Gabinet logopedyczny",
+        "description": "Strona reklamowa gabinetu logopedycznego wyposażona w system zarządzania dla administratora, umożliwiająca łatwe zarządzanie treścią. Platforma wspiera prowadzenie bloga dzięki integracji z headless CMS, oferując elastyczność i skalowalność.",
+        "image": "/src/images/projects/speach-therapist.png",
+        "techs": ["HTML", "SASS", "JavaScript"],
+        "code": "",
+        "preview": "https://logopeda-dialog.pl/"
+      },
+      {
+        "title": "ToDo list",
+        "description": "Prosta lista zadań, która umożliwia tworzenie nowych kategorii, oznaczanie list jako ulubione oraz dodawanie różnorodnych zadań do poszczególnych list. Intuicyjna w obsłudze, pozwala na łatwe zarządzanie codziennymi obowiązkami i organizację pracy.",
+        "image": "/src/images/projects/to-do-list.png",
+        "techs": ["React", "TailwindCSS", "SASS", "redux", "react-Router"],
+        "code": "https://github.com/MichalBodys/React-ToDoList",
+        "preview": "https://silver-sawine-23a225.netlify.app/"
+      },
+      {
+        "title": "Aplikacja muzyczna",
+        "description": "Aplikacja muzyczna umożliwiająca rejestrację nowych użytkowników, dodawanie własnych utworów muzycznych oraz komentowanie treści. Wszystkie funkcje są dostępne wyłącznie dla zalogowanych użytkowników.",
+        "image": "/src/images/projects/music-app.png",
+        "techs": ["vue", "pinia", "TailwindCSS", "Firebase"],
+        "code": "https://github.com/MichalBodys/musicApp/tree/main/musicApp",
+        "preview": "https://music-app-michalbodys.vercel.app/"
+      }
+    ]
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "techStack": [
+      "HTML",
+      "JavaScript",
+      "React",
+      "PHP",
+      "css",
+      "Sass",
+      "Pinia",
+      "React Router",
+      "TailwindCSS",
+      "Bootstrap",
+      "Postman",
+      "jQuery",
+      "Redux",
+      "Next",
+      "MySQL",
+      "Vue",
+      "git",
+      "Astro",
+      "ai tech",
+      "TypeScript",
+      "Firebase"
+    ]
+  },
+  "about": {
+    "title": "O mnie",
+    "subtitle": "Jestem ambitnym full-stack developerem, z pasją do tworzenia innowacyjnych rozwiązań.",
+    "description": "Świetnie odnajduję się w środowiskach, gdzie mogę dzielić się pomysłami, uczyć się od innych i wspólnie rozwijać. Cenię również samodzielność i satysfakcję z realizowania zadań na własną rękę. Pasjonuję się tworzeniem innowacyjnych rozwiązań, które poprawiają funkcjonalność i doświadczenie użytkownika. Poza pracą czerpię energię i inspirację z aktywności fizycznej – piłka nożna, snowboard i bieganie pomagają mi zachować równowagę oraz zmierzyć się z nowymi wyzwaniami."
+  },
+  "contact": {
+    "title": "Pracujmy razem!",
+    "subtitle": "Jestem otwarty na nowe wyzwania i chętnie podejmuję się ciekawych projektów!"
+  }
+}

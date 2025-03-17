@@ -1,0 +1,107 @@
+---
+// filepath: c:\Users\bodys\OneDrive\Pulpit\Michal-bodys-portfolio\michal-bodys-portfolio\src\pages\_home\TechStack.astro
+import { Icon } from 'astro-icon/components'
+import { t } from 'i18n:astro'
+
+const { title, techStack = [] } = t('techStack', {
+  returnObjects: true
+})
+
+const normalizeTitle = title
+  .toLowerCase()
+  .replaceAll(' ', '-')
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+---
+
+<section id={normalizeTitle} class="tech-stack">
+  <h2>
+    <span>{title}</span>
+  </h2>
+  <div class="grid">
+    {
+      techStack.map((tech) => {
+        if (typeof tech !== 'string') {
+          console.error('Expected tech to be a string, but got:', tech)
+          return null
+        }
+        const techLower = tech.toLowerCase().replaceAll(' ', '-')
+
+        return (
+          <div class="card" aria-label={tech}>
+            <Icon name={`techs/${techLower}`} size={24} />
+            <span>{tech}</span>
+          </div>
+        )
+      })
+    }
+  </div>
+</section>
+
+<style>
+  .tech-stack {
+    padding-bottom: 120px;
+    text-align: center;
+
+    & h2 {
+      margin-bottom: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      position: relative;
+    }
+
+    & h2::before,
+    & h2::after {
+      content: '';
+      flex-grow: 1;
+      border-bottom: 1px solid var(--border-color); /* Adjust line color */
+      margin: 0 16px; /* Adjust spacing between the title and the lines */
+    }
+
+    & h2::before {
+      margin-right: 24px;
+    }
+
+    & h2::after {
+      margin-left: 24px;
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background-color: var(--bg-card-contributions);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+  }
+
+  .card p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+  }
+</style>

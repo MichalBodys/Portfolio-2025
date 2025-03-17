@@ -1,139 +1,102 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Full-stack - Michał Bodys",
+  "description": "Full-stack from Poland. Specialist in HTML5, CSS5, JavaScript",
   "navbar": [
     {
       "label": "Home",
       "href": "#top"
     },
     {
-      "label": "Experience",
-      "href": "/en/#work-experience"
+      "label": "About me",
+      "href": "/en/#about-me"
     },
     {
       "label": "Projects",
       "href": "/en/#projects"
     },
     {
-      "label": "About me",
-      "href": "/en/#about-me"
+      "label": "Tech Stack",
+      "href": "/en/#tech-stack"
     }
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
-    "cta": "Contact me"
-  },
-  "experience": {
-    "title": "Work Experience",
-    "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
-      "jobs_description": [
-        {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
-        },
-        {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
-        }
-      ]
-    }
+    "title": "Hello I'm Michał Bodys!",
+    "job_title": "<strong>Full stack developer</strong>",
+    "description": "I am dedicated to creating modern and efficient web applications, placing a strong emphasis on exceptional user experiences and innovative problem-solving approaches. I am open to new and inspiring challenges!",
+    "cta": "CV",
+    "ctafooter": "Contact"
   },
   "projects": {
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "B2B Platform",
+        "description": "Maintenance and upkeep of a B2B website for a renewable energy company, development of sales systems and order management solutions for clients, as well as enhancement of the admin panel with features for customer support, reporting, and systems for package sales and notifications for Polish and international branches.",
+        "image": "/src/images/projects/b2b.png",
+        "techs": ["JavaScript", "Jquery", "bootstrap", "PHP", "mysql"],
+        "code": "",
+        "preview": "https://www.keno-energy.com/?gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIphz31OBTVF-MxNItQDIlD3cFmhsfpQjS_jq_mFKghq-6RtnZdZZz4aAgvnEALw_wcB"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "Speach therapist",
+        "description": "A promotional website for a speech therapy clinic featuring an admin management system that allows streamlined control and content updates. The platform supports blogging capabilities through seamless integration with a headless CMS, offering flexibility and scalability.",
+        "image": "/src/images/projects/speach-therapist.png",
+        "techs": ["HTML", "SASS", "JavaScript"],
+        "code": "",
+        "preview": "https://logopeda-dialog.pl/"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Code",
-        "preview": "Preview"
-      }
-    ]
-  },
-  "contributions": {
-    "title": "Contributions",
-    "contributions": [
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "title": "ToDo list",
+        "description": "A simple to-do list application that allows the creation of new categories, marking lists as favorites, and adding various tasks to individual lists. It’s intuitive and helps efficiently manage daily tasks and organize work.",
+        "image": "/src/images/projects/to-do-list.png",
+        "techs": ["React", "TailwindCSS", "SASS", "redux", "react-Router"],
+        "code": "https://github.com/MichalBodys/React-ToDoList",
+        "preview": "https://silver-sawine-23a225.netlify.app/"
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "title": "Music App",
+        "description": "A music application that allows new users to register, upload their own music tracks, and leave comments. All features are exclusively available to logged-in users.",
+        "image": "/src/images/projects/music-app.png",
+        "techs": ["vue", "pinia", "TailwindCSS", "Firebase"],
+        "code": "https://github.com/MichalBodys/musicApp/tree/main/musicApp",
+        "preview": "https://music-app-michalbodys.vercel.app/"
       }
     ]
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "I am an ambitious full-stack developer with a passion for creating innovative solutions",
+    "description": "I thrive in collaborative environments where I can share ideas, learn, and grow while also valuing independence and the satisfaction of accomplishing tasks on my own. Passionate about creating innovative solutions that enhance functionality and user experience, I draw inspiration and energy from staying active—football, snowboarding, and running help me find balance and tackle new challenges."
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "techStack": [
+      "HTML",
+      "JavaScript",
+      "React",
+      "PHP",
+      "Sass",
+      "css",
+      "Pinia",
+      "React Router",
+      "TailwindCSS",
+      "Bootstrap",
+      "Postman",
+      "jQuery",
+      "Redux",
+      "Next",
+      "MySQL",
+      "Vue",
+      "git",
+      "Astro",
+      "ai tech",
+      "TypeScript",
+      "Firebase"
+    ]
   },
   "contact": {
-    "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
-  },
-  "footer": {
-    "designed": {
-      "designed_with": "Designed with",
-      "designed_by": "by"
-    },
-    "developed": {
-      "developed_with": "Made with",
-      "developed_by": "by"
-    }
+    "title": "Let’s work together!",
+    "subtitle": "I am open to new challenges and eager to take on exciting projects!"
   }
 }

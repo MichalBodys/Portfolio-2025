@@ -52,6 +52,41 @@ html {
     color: #000;
     transition: var(--transition-bg), var(--transition-text);
   }
+
+  .jquery {
+    background-color: #22527b;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .bootstrap {
+    background-color: #3e138e;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .mysql {
+    background-color: #494142;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .redux {
+    background-color: #382051;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .vue {
+    background-color: #08523f;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .pinia {
+    background-color: #555c23;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .react-router {
+    background-color: #464646;
+    transition: var(--transition-bg), var(--transition-text);
+  }
 }
 
 html.dark {

@@ -11,7 +11,6 @@ export class GridField {
   private size: number = 50 // Tamaño de las celdas de la cuadrícula
   private readonly duration = 4000 // Duración de la animación en milisegundos
   private startTime: number = 0 // Tiempo de inicio de la animación
-  private animationFrameId: number = 0 // ID del frame de animación
 
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas // Asigna el canvas recibido
@@ -55,22 +54,22 @@ export class GridField {
 
     // Dibujar líneas horizontales
     for (let y = OFFSET; y <= height; y += this.size) {
-      const lineLeft = new GridLine(this.context, 0, y, 0, y)
+      const lineLeft = new GridLine(this.context, 0, y)
       lineLeft.animateTo({ x: width / 2 }, this.duration, EASING.easeInOutQuad)
       this.lines.push(lineLeft) // Agrega la línea izquierda
 
-      const lineRight = new GridLine(this.context, width, y, width, y)
+      const lineRight = new GridLine(this.context, width, y)
       lineRight.animateTo({ x: width / 2 }, this.duration, EASING.easeInOutQuad)
       this.lines.push(lineRight) // Agrega la línea derecha
     }
 
     // Dibujar líneas verticales
     for (let x = OFFSET; x <= width; x += this.size) {
-      const lineTop = new GridLine(this.context, x, 0, x, 0)
+      const lineTop = new GridLine(this.context, x, 0)
       lineTop.animateTo({ y: height / 2 }, this.duration, EASING.easeInOutQuad)
       this.lines.push(lineTop) // Agrega la línea superior
 
-      const lineBottom = new GridLine(this.context, x, height, x, height)
+      const lineBottom = new GridLine(this.context, x, height)
       lineBottom.animateTo(
         { y: height / 2 },
         this.duration,
@@ -92,13 +91,6 @@ export class GridField {
     this.lines.forEach((line) => {
       line.draw(progress) // Dibuja cada línea en base al progreso
     })
-
-    // Si la animación no ha terminado, continua la animación
-    if (progress < 1) {
-      this.animationFrameId = requestAnimationFrame(this.animate.bind(this))
-    } else {
-      this.animationFrameId = 0 // Reinicia el ID de la animación
-    }
   }
 
   // Iniciar la animación
@@ -165,9 +157,7 @@ class GridLine extends Animatable {
   constructor(
     private readonly context: CanvasRenderingContext2D,
     startX: number,
-    startY: number,
-    endX: number,
-    endY: number
+    startY: number
   ) {
     super()
     this.startX = startX // Asigna la posición inicial en X

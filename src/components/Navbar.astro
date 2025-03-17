@@ -22,14 +22,14 @@ const links = t('navbar', { returnObjects: true })
       <a
         class="language"
         href={Astro.url.pathname.includes('/en')
-          ? switchLocalePath('es')
+          ? switchLocalePath('pl')
           : switchLocalePath('en')}
       >
         <span>
           <Icon name="language" size={18} />
         </span>
         <span>
-          {Astro.url.pathname.includes('/en') ? 'Español' : 'English'}
+          {Astro.url.pathname.includes('/en') ? 'Polish' : 'English'}
         </span>
       </a>
     </li>
@@ -48,7 +48,7 @@ const links = t('navbar', { returnObjects: true })
     <a
       class="language"
       href={Astro.url.pathname.includes('/en')
-        ? switchLocalePath('es')
+        ? switchLocalePath('pl')
         : switchLocalePath('en')}
     >
       <span>

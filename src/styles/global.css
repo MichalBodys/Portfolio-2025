@@ -91,10 +91,6 @@ p {
 .headline-2 {
   font-size: 1.5rem;
   font-weight: 600;
-
-  @media (width >= 768px) {
-    font-size: 2rem;
-  }
 }
 
 .headline-3 {
