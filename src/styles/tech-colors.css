@@ -82,7 +82,7 @@ html {
     background-color: #555c23;
     transition: var(--transition-bg), var(--transition-text);
   }
-
+  .next,
   .react-router {
     background-color: #464646;
     transition: var(--transition-bg), var(--transition-text);

@@ -25,6 +25,7 @@
     "job_title": "<strong>Full stack developer</strong>",
     "description": "I am dedicated to creating modern and efficient web applications, placing a strong emphasis on exceptional user experiences and innovative problem-solving approaches. I am open to new and inspiring challenges!",
     "cta": "CV",
+    "cv_link": "https://drive.google.com/file/d/1QealAijHnc2BTCuh1-jVTmbab0VjJ4_o/view?usp=sharing",
     "ctafooter": "Contact"
   },
   "projects": {
@@ -37,6 +38,14 @@
         "techs": ["JavaScript", "Jquery", "bootstrap", "PHP", "mysql"],
         "code": "",
         "preview": "https://www.keno-energy.com/?gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIphz31OBTVF-MxNItQDIlD3cFmhsfpQjS_jq_mFKghq-6RtnZdZZz4aAgvnEALw_wcB"
+      },
+      {
+        "title": "Fizjoholika",
+        "description": "Management system for a physiotherapy clinic that enables administrators to edit staff training levels, education details, offered services, and pricing. The application is built with Next.js and Firebase, providing secure login with Gmail verification and an intuitive admin panel for managing patients, appointments, and service offerings.",
+        "image": "/src/images/projects/fizjoholika.png",
+        "techs": ["next", "TailwindCSS", "firebase"],
+        "code": "",
+        "preview": "https://www.fizjoholika.pl/"
       },
       {
         "title": "Speach therapist",

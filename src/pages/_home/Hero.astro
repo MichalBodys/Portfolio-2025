@@ -8,7 +8,8 @@ const {
   title,
   job_title: jobTitle,
   description,
-  cta
+  cta,
+  cv_link: cvLink
 } = t('hero', {
   returnObjects: true
 })
@@ -26,7 +27,7 @@ const {
       <p>{description}</p>
     </section>
     <section class="button-container">
-      <Button class="filled" href="mailto:bodysmic@gmail.com">{cta}</Button>
+      <Button class="filled" href={cvLink}>{cta}</Button>
       <Button href="https://www.linkedin.com/in/michal-bodys/">
         <Icon name="linkedin" size={24} />
         <span>LinkedIn</span>

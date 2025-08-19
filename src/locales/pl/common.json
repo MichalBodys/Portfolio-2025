@@ -25,6 +25,7 @@
     "job_title": "<strong>Full stack developer</strong>",
     "description": "Z zaangażowaniem tworzę nowoczesne i wydajne aplikacje internetowe, kładąc szczególny nacisk na doskonałe doświadczenia użytkownika oraz innowacyjne podejście do rozwiązywania problemów. Jestem gotów na nowe, inspirujące wyzwania!",
     "cta": "CV",
+    "cv_link": "https://drive.google.com/file/d/1EYg2a2nAWRvIsAGlsAN6Ixw0wKx2tKh2/view?usp=sharing",
     "ctafooter": "Kontakt"
   },
   "projects": {
@@ -37,6 +38,14 @@
         "techs": ["JavaScript", "Jquery", "bootstrap", "PHP", "mysql"],
         "code": "",
         "preview": "https://www.keno-energy.com/?gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIphz31OBTVF-MxNItQDIlD3cFmhsfpQjS_jq_mFKghq-6RtnZdZZz4aAgvnEALw_wcB"
+      },
+      {
+        "title": "Fizjoholika",
+        "description": "System zarządzania dla gabinetu fizjoterapii umożliwiający administratorom edycję poziomu wyszkolenia personelu, danych o edukacji, oferowanych usług oraz cennika. Aplikacja oparta na Next.js z Firebase zapewnia bezpieczne logowanie z weryfikacją Gmail oraz intuicyjny panel administracyjny do zarządzania pacjentami, wizytami i ofertą usług.",
+        "image": "/src/images/projects/fizjoholika.png",
+        "techs": ["next", "TailwindCSS", "firebase"],
+        "code": "",
+        "preview": "https://www.fizjoholika.pl/"
       },
       {
         "title": "Gabinet logopedyczny",
